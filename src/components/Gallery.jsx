@@ -62,7 +62,7 @@ function Gallery() {
               <div className="relative overflow-hidden rounded-xl shadow-md group cursor-pointer hover:shadow-xl transition-all duration-500">
 
                 {/* Imagen */}
-                <div className="aspect-3/4 overflow-hidden rounded-xl group">
+                <div className="aspect-square overflow-hidden rounded-xl group">
                   <img
                     src={image.imageUrl}
                     alt={`${image.category} - ${image.description}`}
