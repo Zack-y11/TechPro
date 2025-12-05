@@ -5,6 +5,7 @@ import Gallery from './components/Gallery.jsx'
 import Pricing from './components/Pricing.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Footer from './components/Footer.jsx'
+import FAQ from './components/FAQ.jsx'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Pricing />
       <Testimonials />
       <Footer />
+      <FAQ/>
     </div>
   )
 }

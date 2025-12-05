@@ -40,6 +40,19 @@ function Pricing() {
         "Manager Dedicado"
       ],
       popular: false
+    },
+    {
+      name: "Empresarial Pro Plus",
+      price: "$599",
+      period: "/mes",
+      features: [
+        "10TB Almacenamiento",
+        "Atencion personalizada +",
+        "Actualizacion Real-Time",
+        "Proyecciones con IA",
+        "API Ilimitado"
+      ],
+      popular: false
     }
   ];
 
@@ -58,7 +71,7 @@ function Pricing() {
         </div>
 
         {/* Cards de Pricing */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {plans.map((plan, index) => (
             <div
               key={index}
